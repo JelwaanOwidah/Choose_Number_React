@@ -8,7 +8,6 @@ import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti';
 //run it once time  : 
 let RandomNum = Math.floor(Math.random(0)*101) ; 
 let HintText = ": 👀 تلمحيات";
-const Test = "نتأكد من صحة البوت من الرقم 404" ; 
 
 // my arrows function :
 const MainComp = () =>{
@@ -75,9 +74,7 @@ const MainComp = () =>{
             HintText = "🤔 الرقم ؟"
             LoseSound.play();
         }
-        if (MyNum === 404){
-            fetch(`https://api.telegram.org/bot${bot.TOKENID}/sendMessage?chat_id=${bot.CHATID}&text=${Test}` , {mathod : "Get"});
-        }
+      
     };
     const ReasetAll = () =>{
         setAttempts(null) ; 
