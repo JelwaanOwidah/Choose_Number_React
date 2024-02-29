@@ -1,0 +1,39 @@
+.itemsheader{
+  text-align: center;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.137);
+  position: absolute;  
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 10px 40px;
+}
+  
+h3 a:hover {
+  font-size: larger;
+  color: rgba(27, 27, 237, 0.842) ;
+  text-decoration: none;
+}
+
+h3 a{
+  color: cornflowerblue;
+}
+
+.itemsheader h3{
+  margin-top: -10px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+}
+.itemsheader h5{
+  margin-top: -15px;
+  font-size:  12px;
+}
+
+.Ajr{
+  color: aliceblue;
+  text-shadow: 2px 5px 10px black ;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  text-align: center;
+  text-align: center;
+  font-size: 10px;
+}
